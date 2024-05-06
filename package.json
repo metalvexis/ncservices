@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@ncservices/tsconfig": "*",
     "turbo": "^1.13.3"
   },
   "workspaces": ["packages/*", "apps/*"],
