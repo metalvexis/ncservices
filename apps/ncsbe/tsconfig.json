@@ -1,0 +1,7 @@
+{
+  "extends": "@ncservices/tsconfig/base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}
