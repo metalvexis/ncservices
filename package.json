@@ -1,0 +1,16 @@
+{
+  "name": "ncservices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^1.13.3"
+  },
+  "workspaces": ["packages/*", "apps/*"],
+  "private": true,
+  "scripts": {
+    "build": "npx turbo build",
+    "dev": "npx turbo dev",
+    "deploy": "npx turbo deploy"
+  }
+}
