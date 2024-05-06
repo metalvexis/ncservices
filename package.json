@@ -4,14 +4,21 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@ncservices/tsconfig": "*",
+    "husky": "^9.0.11",
     "turbo": "^1.13.3"
   },
-  "workspaces": ["packages/*", "apps/*"],
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "private": true,
   "scripts": {
     "build": "npx turbo build",
     "dev": "npx turbo dev",
-    "deploy": "npx turbo deploy"
+    "deploy": "npx turbo deploy",
+    "prepare": "husky"
   }
 }
